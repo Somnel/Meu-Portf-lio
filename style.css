@@ -1,0 +1,51 @@
+:root {
+    --p1: #000311;
+    --p2: #EEEEEE;
+    --p3: #00A3AA;
+}
+
+body {
+    background-color: var(--p1);
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: var(--p2);
+}
+
+
+/* [ Menu de Navegação ] */
+.offcanvas { 
+    background-color: var(--p1);  
+}
+
+.offcanvas-header, .offcanvas-body a{
+    color: var(--p2);
+    padding: 20px 15px;
+}
+
+/* Telas Maiores */
+@media screen and (min-width: 576px) {
+    .offcanvas-body a {
+        padding: 10px;
+        margin: 0 .5%;
+    }
+}
+
+.offcanvas-body a:hover, .offcanvas-body a.active {
+    background-color: var(--p2);
+    font-weight: bold;
+}
+
+.navbar-toggler-icon, .btn-close {
+    background-image: none;
+    border: none;
+    color: var(--p2);
+}
+
+/* [ Inicio ] */
+#inicio img {
+    box-shadow: 0px 0px 10px 5px var(--p3);
+}
