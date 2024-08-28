@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- Menu de Navegação -->
-    <nav id="navbar-port" class="navbar navbar-expand-lg mx-2 border-bottom sticky-top">
+    <nav id="navbar-port" class="navbar navbar-expand-lg px-4 fixed-top border-bottom">
         <div class="container-fluid">
             <button 
                 class="navbar-toggler" 
@@ -75,40 +75,146 @@
         </div>
     </nav>
 
+    <!-- Início -->
+    <div data-bs-spy="scroll" data-bs-target="#navbar-port" data-bs-offset="0" class="scrollspy-example px-4" tabindex="0">
+        <header id="inicio" class="pt-5">
+            <div class="container py-5">
+                <div class="row align-items-center d-flex">
+                    <!-- Resumo -->
+                    <div class="col-lg-7 col-xl-6 col-xxl-5 text-xl-start text-center order-last order-xl-start" >
+                        <h6>Olá, sou . . .</h6>
+                        <h1 class="fw-bold">Nelson Machado</h1>
+                        
+                        <p class="fs-6 mt-2">Sou um <b>Desenvolvedor Backend</b> / Amante de tecnologia, principalmente estrutura de dados / Atualmente estudando  </p>
+                    </div>
 
-    <header>
-        <div class="container py-5">
-            <div class="row align-items-center d-flex " >
-                <div class="col-lg-8 col-xl-7 col-xxl-6 text-xl-start text-center order-last order-xl-start" >
-                    <h6>Olá, sou . . .</h6>
-                    <h1 class="fw-bold">Nelson Machado</h1>
-                    <h5>Desenvolvedor Backend</h5>
-                    <p class="lead mt-5">Conhecimento em linguagens de programação, desenvolvimento de software back e front principalmente web e mobile, possuo o básico do Microsoft Office. Sou proativo e responsável com meu trabalho, busco entender os outros ao invés de gerar conflito, e sempre pondero sobre melhorias para minhas capacidades.</p>
+                    <!-- Imagem de Perfil -->
+                    <div class="col-lg-7 col-xl-6 col-xxl-5 my-2 px-5 py-5 d-flex justify-content-center order-start order-xl-last">
+                        <img 
+                            src="imagens/pfp.jpeg" 
+                            alt="Imagem de Perfil"
+                            class="rounded-circle"
+                            >
+                    </div>
                 </div>
-                <div class="col-lg-8 col-xl-7 col-xxl-6 my-5 px-5 d-flex justify-content-center order-start order-xl-last">
-                    <img 
-                        src="imagens/pfp.jpeg" 
-                        alt="Imagem de Perfil"
-                        class="rounded-circle"
-                        >
+            </div>  
+        </header>
+
+        <!-- Conteúdo -->
+        <main class="py-5">
+            <!-- Conhecimentos -->
+            <div id="conhecimentos" class="container-fluid pt-4">
+                <h4 class="fw-bold">Conhecimentos</h4>
+                <div>
+                    <h5 class="fw-bold">Plataformas</h5>
+                    <hr>
+
+                    <div class="px-3 row">
+                        <!-- Android -->
+                        <div class="card" >
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="card-img-top bi bi-android2" viewBox="0 0 16 16">
+                                <path d="m10.213 1.471.691-1.26q.069-.124-.048-.192-.128-.057-.195.058l-.7 1.27A4.8 4.8 0 0 0 8.005.941q-1.032 0-1.956.404l-.7-1.27Q5.281-.037 5.154.02q-.117.069-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.7 3.7 0 0 0 3.5 5.02h9q0-1.125-.623-2.072a4.27 4.27 0 0 0-1.664-1.476ZM6.22 3.303a.37.37 0 0 1-.267.11.35.35 0 0 1-.263-.11.37.37 0 0 1-.107-.264.37.37 0 0 1 .107-.265.35.35 0 0 1 .263-.11q.155 0 .267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264m4.101 0a.35.35 0 0 1-.262.11.37.37 0 0 1-.268-.11.36.36 0 0 1-.112-.264q0-.154.112-.265a.37.37 0 0 1 .268-.11q.155 0 .262.11a.37.37 0 0 1 .107.265q0 .153-.107.264M3.5 11.77q0 .441.311.75.311.306.76.307h.758l.01 2.182q0 .414.292.703a.96.96 0 0 0 .7.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182q0 .414.292.703a.97.97 0 0 0 .71.288.97.97 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76q.436 0 .749-.308.31-.307.311-.75V5.365h-9zm10.495-6.587a.98.98 0 0 0-.702.278.9.9 0 0 0-.293.685v4.063q0 .406.293.69a.97.97 0 0 0 .702.284q.42 0 .712-.284a.92.92 0 0 0 .293-.69V6.146a.9.9 0 0 0-.293-.685 1 1 0 0 0-.712-.278m-12.702.283a1 1 0 0 1 .712-.283q.41 0 .702.283a.9.9 0 0 1 .293.68v4.063a.93.93 0 0 1-.288.69.97.97 0 0 1-.707.284 1 1 0 0 1-.712-.284.92.92 0 0 1-.293-.69V6.146q0-.396.293-.68"/>
+                            </svg>
+                            <div class="card-body py-5 text-center">
+                                <h5 class="card-title">Android</h5>
+                            </div>
+                        </div>
+    
+                        <!-- Web -->
+                        <div class="card">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="card-img-top bi bi-pc-display" viewBox="0 0 16 16">
+                                <path d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z"/>
+                            </svg>
+                            <div class="card-body py-5 text-center">
+                                <h5 class="card-title">Desktop <br> (Windows)</h5>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>  
-    </header>
 
-    <main data-bs-spy="scroll" data-bs-target="#navbar-port" data-bs-offset="0" class="scrollspy-example py-5 px-4" tabindex="0">
-        <div id="conhecimentos" class="container-fluid pt-5">
-            <h4 class="fw-bold">Conhecimentos</h4>
-            <div>
-                <h5 class="fw-bold">Conhecimentos</h5>
+            <!-- Linguagens -->
+            <div id="linguagens" class="container-fluid  pt-4">
+                <h5 class="fw-bold">Linguagens</h5>
                 <hr>
+
+                <div class="row px-3">
+                    <!-- HTML5 -->
+                    <div class="card">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="currentColor" 
+                            class="card-img-top"
+                            viewBox="0 0 384 512">
+                            <path d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z"/>
+                        </svg>
+                        <div class="card-body py-5 text-center">
+                            <h5 class="card-title">HTML5</h5>
+                        </div>
+                    </div>
+
+                    <!-- CSS3 -->
+                    <div class="card">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="currentColor" 
+                            class="card-img-top"
+                            viewBox="0 0 384 512">
+                            <path d="M0 32l34.9 395.8L192 480l157.1-52.2L384 32H0zm313.1 80l-4.8 47.3L193 208.6l-.3 .1h111.5l-12.8 146.6-98.2 28.7-98.8-29.2-6.4-73.9h48.9l3.2 38.3 52.6 13.3 54.7-15.4 3.7-61.6-166.3-.5v-.1l-.2 .1-3.6-46.3L193.1 162l6.5-2.7H76.7L70.9 112h242.2z"/>
+                        </svg>
+                        <div class="card-body py-5 text-center">
+                            <h5 class="card-title">CSS3</h5>
+                        </div>
+                    </div>
+
+                    <!-- JS -->
+                    <div class="card">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="currentColor" 
+                            class="card-img-top"
+                            viewBox="0 0 448 512">
+                            <path d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"/>
+                        </svg>
+                        <div class="card-body py-5 text-center">
+                            <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
+
+                    <!-- Flutter -->
+                    <div class="card">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="currentColor" 
+                            class="card-img-top"
+                            viewBox="0 0 448 512">
+                            <path d="M429.5 236.3L291.7 374.1 429.5 512H272l-59.1-59.1-78.8-78.8L272 236.3H429.5zM272 0L16 256l78.8 78.8L429.5 0H272z"/>
+                        </svg>
+                        <div class="card-body py-5 text-center">
+                            <h5 class="card-title">Flutter</h5>
+                        </div>
+                    </div>
+
+                    <!-- Java -->
+                    <div class="card">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            fill="currentColor" 
+                            class="card-img-top"
+                            viewBox="0 0 384 512">
+                            <path d="M277.7 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1zm-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296 53.2 242.8 0 242.8 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2zm114.6-176.2c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3zm-6.1 270.5a12.2 12.2 0 0 1 -2 2.6c128.3-33.7 81.1-118.9 19.8-97.3a17.3 17.3 0 0 0 -8.2 6.3 70.5 70.5 0 0 1 11-3c31-6.5 75.5 41.5-20.6 91.4zM348 437.4s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6 .7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.8 509.4 401 461.3 348 437.4zM124.4 396c-78.7 22 47.9 67.4 148.1 24.5a185.9 185.9 0 0 1 -28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2zm179.8 97.2c-78.7 14.8-175.8 13.1-233.3 3.6 0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7zM260.6 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9a60.4 60.4 0 0 1 -21.1-12.8z"/>
+                        </svg>
+                        <div class="card-body py-5 text-center">
+                            <h5 class="card-title">Java</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </main>
+        </main>
 
 
-    <div id="contato"></div>
-
+        <div id="contato"></div>
+    </div>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <!-- JS customizado -->
